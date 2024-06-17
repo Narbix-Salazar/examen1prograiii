@@ -1,0 +1,25 @@
+﻿﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="RecyclingManagement.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Recycling Management</title>
+    <link rel="stylesheet" type="text/css" href="Site.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+            <div id="content">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <footer>
+                &copy; 2024 Recycling Management. Todos los derechos reservados.
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
